@@ -8,17 +8,24 @@ This project utilizes an Arduino Uno board to measure soil moisture levels using
 
 Components Used:
 Arduino Uno Board:
-The main microcontroller board for the project.
-Soil Moisture Sensor:
+-The main microcontroller board for the project.
+
+-Soil Moisture Sensor:
 Measures the moisture level in the soil and sends the data to the Arduino.
-Red LED:
+
+-Red LED:
 Lights up when the soil moisture level is low to alert the user.
-Green LED:
+
+-Green LED:
 Lights up when the soil moisture is sufficient.
+
 Buzzer:
 Produces a sound alert when the soil moisture level is low.
+
 Resistors:
-Two resistors (220Ω or 330Ω) to regulate the current to the LEDs.
+Two resistors (330Ω) to regulate the current to the LEDs.
+
+
 Jumper Wires:
 For connecting the components to the Arduino board.
 Breadboard:
@@ -30,7 +37,18 @@ To organize and connect the components easily.
 
 
 
+
+
+
+
+
+
+
+
+
 How the Project Works:
+
+
 The soil moisture sensor measures the soil's moisture level and sends the reading to the Arduino.
 If the moisture level is below the threshold (200 in the code):
 The red LED turns on.
