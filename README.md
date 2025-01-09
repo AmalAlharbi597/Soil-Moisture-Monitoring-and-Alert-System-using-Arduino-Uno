@@ -19,14 +19,14 @@ Lights up when the soil moisture level is low to alert the user.
 -Green LED:
 Lights up when the soil moisture is sufficient.
 
-Buzzer:
+-Buzzer:
 Produces a sound alert when the soil moisture level is low.
 
-Resistors:
+-Resistors:
 Two resistors (330Ω) to regulate the current to the LEDs.
 
 
-Jumper Wires:
+-Jumper Wires:
 For connecting the components to the Arduino board.
 Breadboard:
 To organize and connect the components easily.
